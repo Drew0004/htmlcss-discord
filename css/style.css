@@ -203,6 +203,10 @@ li{
     text-align: center;
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 40px;
+    margin: 80px 0;
+    /* importante (spaziatura verticale box main)*/
 }
 
 
