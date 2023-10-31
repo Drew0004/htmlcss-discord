@@ -186,6 +186,8 @@ li{
     line-height: 50px;
     padding: 40px 0;
     text-align: center;
+    margin-top: 80px;
+    /* importante (spaziatura verticale box main)*/
 }
 
 .main-big-box > p{
@@ -205,7 +207,7 @@ li{
     background-repeat: no-repeat;
     background-position: top center;
     padding-top: 40px;
-    margin: 80px 0;
+    margin-bottom: 80px;
     /* importante (spaziatura verticale box main)*/
 }
 
