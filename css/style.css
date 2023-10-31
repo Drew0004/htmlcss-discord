@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
 }
 
 /* 
@@ -19,8 +20,21 @@
     border: 1px dashed white;
 }
 
-.white{
+.white-background{
     background-color: white;
+}
+
+.white-color{
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
 }
 /* 
     main 
@@ -48,6 +62,7 @@
 
 }
 
+
 /* 
     debug 
 */
@@ -60,7 +75,7 @@
     align-items: center;
 }
 
-.orangebar{
+.navbar{
     background-color: orange;
     display: flex;
     justify-content: center;
@@ -168,8 +183,4 @@
     justify-content: space-between;
     align-items: center;
     min-height: 50px;
-}
-
-.button{
-    background-color: pink;
 }
