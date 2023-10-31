@@ -44,7 +44,7 @@ ul{
     list-style: none;
 }
 
-li{
+.link > ul > li{
     display: inline-block;
     padding: 20px;
 }
@@ -281,19 +281,29 @@ li{
     width: 25%;
 }
 
+.horizontal-rule{
+    border: 1px solid rgb(114, 137, 218);
+}
+
 .footer-container-bottom{
     background-color: rgb(54, 54, 54);
     min-height: 80px;
-    margin-top: 5px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
 .aquabar{
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: 50px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    /* importante (spaziatura verticale box main)*/
+}
+
+.col > ul > li{
+    padding: 10px 0;
 }
