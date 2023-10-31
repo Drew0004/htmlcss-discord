@@ -19,6 +19,9 @@
     border: 1px dashed white;
 }
 
+.white{
+    background-color: white;
+}
 /* 
     main 
 */
@@ -29,13 +32,29 @@
     width: 100%;
 }
 
+.background-header{
+    background-image: url('../img/jumbo.png');
+    min-height: 500px;
+    background-size: cover;
+}
+
+/* 
+    header 
+*/
+
+.button{
+    border-radius: 25px;
+    padding: 10px;
+
+}
+
 /* 
     debug 
 */
 
 .header-container-up{
-    background-color: rgb(208, 243, 255);
-    min-height: 50px;
+    /* background-color: rgb(208, 243, 255); */
+    min-height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +84,7 @@
 }
 
 .header-container-bottom{
-    background-color: blue;
+    /* background-color: blue; */
     min-height: 400px;
     display: flex;
     justify-content: center;
