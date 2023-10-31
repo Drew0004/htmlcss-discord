@@ -12,7 +12,7 @@
 /* 
     general 
 */
-.border, .orangebar, .logo, .link, .login, .fuchsia-box{
+.border{
     border: 1px dashed black;
 }
 
@@ -62,6 +62,11 @@ li{
 
 }
 
+.link > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
 
 /* 
     debug 
@@ -76,7 +81,7 @@ li{
 }
 
 .navbar{
-    background-color: orange;
+    /* background-color: orange; */
     display: flex;
     justify-content: center;
     align-items: center;
