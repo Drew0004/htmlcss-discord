@@ -1,0 +1,156 @@
+/* 
+    reset 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    general 
+*/
+.border, .orangebar, .logo, .link, .login, .fuchsia-box{
+    border: 1px dashed black;
+}
+
+.white-border{
+    border: 1px dashed white;
+}
+
+/* 
+    main 
+*/
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* 
+    debug 
+*/
+
+.header-container-up{
+    background-color: rgb(208, 243, 255);
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orangebar{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 25%;
+}
+
+.link{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.login{
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-container-bottom{
+    background-color: blue;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fuchsia-box{
+    background-color: fuchsia;
+    min-height: 320px;
+    width: 60%;
+}
+
+.cyan-box{
+    background-color: rgb(0, 149, 255);
+    min-height: 320px;
+    width: 70%;
+}
+
+.pink-box{
+    background-color: pink;
+    min-height: 320px;
+    width: 30%;
+}
+
+.main-flex{
+    display: flex;
+    margin: 30px 0;
+}
+
+.main-container-2{
+    background-color: lightgray;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-box{
+    background-color: green;
+    min-height: 700px;
+    width: 100%;
+}
+
+.footer-container-up{
+    background-color: rgb(54, 54, 54);
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coral-box{
+    width: 25%;
+    min-height: 500px;
+    background-color: lightcoral;
+}
+
+.cadetblue-box{
+    width: 75%;
+    min-height: 500px;
+    background-color: cadetblue;
+    display: flex;
+}
+
+.col{
+    width: 25%;
+}
+
+.footer-container-bottom{
+    background-color: rgb(54, 54, 54);
+    min-height: 80px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.aquabar{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+}
+
+.button{
+    background-color: pink;
+}
