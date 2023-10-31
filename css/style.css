@@ -32,6 +32,10 @@
     background-color: rgb(114, 137, 218);
 }
 
+.discord-color{
+    color: rgb(114, 137, 218);
+}
+
 .white-color{
     color: white;
 }
@@ -243,10 +247,27 @@ li{
     align-items: center;
 }
 
-.coral-box{
+.foot-text-box{
     width: 25%;
     min-height: 500px;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
+}
+
+.foot-text-box > h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.foot-pic-text{
+    margin-bottom: 20px;
+}
+
+.icons{
+    letter-spacing: 5px;
+}
+
+.italy{
+    width: 7%;
 }
 
 .cadetblue-box{
