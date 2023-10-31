@@ -24,6 +24,10 @@
     background-color: white;
 }
 
+.dark-gray-background{
+    background-color: rgb(45, 45, 45)
+}
+
 .white-color{
     color: white;
 }
@@ -58,7 +62,7 @@ li{
 
 .button{
     border-radius: 25px;
-    padding: 10px;
+    padding: 15px;
 
 }
 
@@ -109,12 +113,28 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
 }
 
-.fuchsia-box{
-    background-color: fuchsia;
+.info-box{
+    /* background-color: fuchsia; */
     min-height: 320px;
     width: 60%;
+    text-align: center;
+}
+
+.info-box > h1{
+    padding-bottom: 40px;
+    font-size: 50px;
+}
+
+.info-box > p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.button-align{
+    padding-top: 30px;
 }
 
 .cyan-box{
