@@ -28,6 +28,10 @@
     background-color: rgb(45, 45, 45)
 }
 
+.discord-background{
+    background-color: rgb(114, 137, 218);
+}
+
 .white-color{
     color: white;
 }
@@ -146,6 +150,18 @@ li{
     /* importante (spaziatura verticale box main)*/
 }
 
+.main-big-image-box{
+    /* background-color: rgb(0, 149, 255); */
+    min-height: 320px;
+    margin: 80px 0; 
+    /* importante (spaziatura verticale box main)*/
+}
+
+.main-big-image-box > img{
+    width: 100%;
+    display: block;
+}
+
 .main-image-box > img{
     width: 100%;
     display: block;
@@ -165,10 +181,33 @@ li{
     padding: 40px 0;
 }
 
+.main-big-box > h2{
+    font-size: 40px;
+    line-height: 50px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.main-big-box > p{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
 
 .main-text-box > p{
     font-size: 18px;
     line-height: 30px;
+}
+
+.lower-big-box{
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+}
+
+
+.lower-big-box > h2{
+    padding-bottom: 50px;
 }
 
 .main-flex{
@@ -185,7 +224,7 @@ li{
 }
 
 .main-big-box{
-    background-color: green;
+    /* background-color: green; */
     min-height: 700px;
     width: 100%;
 }
